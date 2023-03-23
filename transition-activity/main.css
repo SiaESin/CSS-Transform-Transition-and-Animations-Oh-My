@@ -6,9 +6,11 @@ body  {
 }
 
 .caption {
-  width: 80%;
+  color: white;
+  width: 700px;
   margin: auto;
-  overflow: hidden;
+  position: relative;
+  bottom: 50px;
 }
 
 img {
@@ -20,6 +22,9 @@ button {
   margin: .2em;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
+  position:fixed;
+  bottom: 180px;
+  right:330px;
 }
 
 button:hover {

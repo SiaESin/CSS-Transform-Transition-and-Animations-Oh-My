@@ -7,3 +7,18 @@ button:hover {
     background-color: cornflowerblue;
     transition: 2s;
   }
+
+.caption:hover {
+    position: relative;
+    width: 700px;
+    height: 300px;
+    animation-name: textSlide;
+    animation-duration: 5s;  
+    animation-fill-mode: forwards;
+    animation-: ;
+}
+
+@keyframes textSlide {
+    from {bottom: 0px;}
+    to {bottom: 500px;}
+}
